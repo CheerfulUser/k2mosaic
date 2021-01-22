@@ -2,7 +2,7 @@
 
 Example usage
 -------------
-mos = KeplerChannelMosaic(campaign=6, channel=15, cadenceno=3051)
+mos = KeplerChannelMosaic(campaign='c6', channel=15, cadenceno=3051)
 mos.gather_pixels()
 mos.add_wcs()
 mos.writeto("mymosaic.fits")
@@ -83,9 +83,13 @@ class KeplerChannelMosaic(object):
 
     def add_wcs(self):
         """Injects the WCS keywords from an FFI of the same campaign."""
-        ffi_hdr = get_ffi_header(self.campaign, self.channel)
+        if 'c' in self.campaign.lower():
+            self.campaign = self.campaign.lower().split('c')[-1]
+
+        ffi_hdr = get_ffi_header(int(self.campaign), int(self.channel))
         if ffi_hdr is not None:
             for kw in WCS_KEYS:
+                print('added ' + kw)
                 self.header[kw] = ffi_hdr[kw]
         else:
             print('Warning: this version of k2mosaic does not contain '
@@ -329,6 +333,18 @@ class KeplerChannelMosaic(object):
         for keyword in ['RADESYS', 'EQUINOX']:
             hdu.header[keyword] = self.template_tpf_header1[keyword]
             hdu.header.cards[keyword].comment = self.template_tpf_header1.comments[keyword]
+
+        if 'c' in self.campaign.lower():
+            self.campaign = self.campaign.lower().split('c')[-1]
+
+        ffi_hdr = get_ffi_header(int(self.campaign), int(self.channel))
+        if ffi_hdr is not None:
+            for kw in WCS_KEYS:
+                print('added ' + kw)
+                hdu.header[kw] = ffi_hdr[kw]
+        else:
+            print('Warning: this version of k2mosaic does not contain '
+                  'WCS information for campaign {} data.'.format(self.campaign))
 
         return hdu
 
