@@ -83,8 +83,11 @@ class KeplerChannelMosaic(object):
 
     def add_wcs(self):
         """Injects the WCS keywords from an FFI of the same campaign."""
-        if 'c' in self.campaign.lower():
-            self.campaign = self.campaign.lower().split('c')[-1]
+        if type(self.campaign) == str:
+            if 'c' in self.campaign.lower():
+                self.campaign = self.campaign.lower().split('c')[-1]
+        else:
+            self.campaign = int(self.campaign)
 
         ffi_hdr = get_ffi_header(int(self.campaign), int(self.channel))
         if ffi_hdr is not None:
@@ -334,8 +337,11 @@ class KeplerChannelMosaic(object):
             hdu.header[keyword] = self.template_tpf_header1[keyword]
             hdu.header.cards[keyword].comment = self.template_tpf_header1.comments[keyword]
 
-        if 'c' in self.campaign.lower():
-            self.campaign = self.campaign.lower().split('c')[-1]
+        if type(self.campaign) == str:
+            if 'c' in self.campaign.lower():
+                self.campaign = self.campaign.lower().split('c')[-1]
+        else:
+            self.campaign = int(self.campaign)
 
         ffi_hdr = get_ffi_header(int(self.campaign), int(self.channel))
         if ffi_hdr is not None:
