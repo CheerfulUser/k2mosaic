@@ -389,6 +389,7 @@ def export_ffi_headers(output_fn=FFI_HEADERS_FILE, ffi_store=None):
                     keywords['filename'] = basename
                     keywords['extension'] = ext
                     for kw in WCS_KEYS:
+                        print('added '+kw)
                         keywords[kw] = fts[ext].header[kw]
                     ffi_headers.append(keywords)
                 except KeyError:
