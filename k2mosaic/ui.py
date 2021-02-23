@@ -84,6 +84,7 @@ def k2mosaic_mosaic_one(cadenceno, tpf_filenames, campaign, channel, add_backgro
                 [mosaic.add_tpf(tpf) for tpf in bar]
         else:
             [mosaic.add_tpf(tpf) for tpf in tpf_filenames]
+        click.echo("\n adding wcs for camp {}, cahnnel {}".format(campaign,channel))
         mosaic.add_wcs()
         print('has the header updated?',mosaic.header['CRVAL2'])
         mosaic.writeto(output_fn)

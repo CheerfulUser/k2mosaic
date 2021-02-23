@@ -1,0 +1,1047 @@
+Script started on Mon Oct 12 18:03:41 2020
+[oh-my-zsh] Insecure completion-dependent directories detected:
+drwxrwxr-x  7 rridden  admin  224 Sep  9 16:09 /usr/local/share/zsh
+drwxrwxr-x  4 rridden  admin  128 Sep  9 12:19 /usr/local/share/zsh/site-functions
+
+[oh-my-zsh] For safety, we will not load completions from these directories until
+[oh-my-zsh] you fix their permissions and ownership and restart zsh.
+[oh-my-zsh] See the above list for directories with group or other writability.
+
+[oh-my-zsh] To fix your permissions you can do so by disabling
+[oh-my-zsh] the write permission of "group" and "others" and making sure that the
+[oh-my-zsh] owner of these directories is either root or your current user.
+[oh-my-zsh] The following command may help:
+[oh-my-zsh]     compaudit | xargs chmod g-w,o-w
+
+[oh-my-zsh] If the above didn't help or you want to skip the verification of
+[oh-my-zsh] insecure directories you can set the variable ZSH_DISABLE_COMPFIX to
+[oh-my-zsh] "true" before oh-my-zsh is sourced in your zshrc file.
+
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic]1;..pler/k2mosaicl[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hllcd s  l  ccd  scripts[1m/[0m[0m [?1l>[?2004l
+]2;cd scripts]1;cd[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic/scripts]1;..osaic/scripts[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic/scripts [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsexport-ffi-headers.py
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic/scripts]1;..osaic/scripts[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic/scripts [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic]1;..pler/k2mosaic[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsLICENSE    README.rst [1m[36mdocs[39;49m[0m       [1m[36mk2mosaic[39;49m[0m   [1m[36mscripts[39;49m[0m    setup.py   typescript
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic]1;..pler/k2mosaic[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hccd k2mosaic[1m/[0m[0m [?1l>[?2004l
+]2;cd k2mosaic]1;cd[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic/k2mosaic]1;..saic/k2mosaic[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic/k2mosaic [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls__init__.py mast.py     movie.py    ui.py
+[1m[36mdata[39;49m[0m        mosaic.py   [1m[36mtests[39;49m[0m       version.py
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic/k2mosaic]1;..saic/k2mosaic[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic/k2mosaic [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hee  ssubl ui.py[1m [0m [K[A[89C[K[1B[K[A[89C[?1l>[?2004l[1B]2;open -a /Applications/Sublime\ Text.app ui.py]1;subl[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic/k2mosaic]1;..saic/k2mosaic[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic/k2mosaic [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004ho ssubl mosaic.py[1m [0m[K[K[?1l>[?2004l
+]2;open -a /Applications/Sublime\ Text.app mosaic.py]1;subl[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic/k2mosaic]1;..saic/k2mosaic[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic/k2mosaic [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls__init__.py mast.py     movie.py    ui.py
+[1m[36mdata[39;49m[0m        mosaic.py   [1m[36mtests[39;49m[0m       version.py
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic/k2mosaic]1;..saic/k2mosaic[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic/k2mosaic [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls__init__.py mast.py     movie.py    ui.py
+[1m[36mdata[39;49m[0m        mosaic.py   [1m[36mtests[39;49m[0m       version.py
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic/k2mosaic]1;..saic/k2mosaic[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic/k2mosaic [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hoopen mosaic.py[1m [0m[K[K[?1l>[?2004l
+]2;open mosaic.py]1;open[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic/k2mosaic]1;..saic/k2mosaic[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic/k2mosaic [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hi oopen ui.py[1m [0m [K[A[89C[K[1B[K[A[89C[?1l>[?2004l[1B]2;open ui.py]1;open[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic/k2mosaic]1;..saic/k2mosaic[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic/k2mosaic [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hgga *[?1l>[?2004l
+]2;git add *]1;ga[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic/k2mosaic]1;..saic/k2mosaic[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic/k2mosaic [43m[34m [30m master ✚ ? [49m[33m[39m [K[?1h=[?2004hgg gc -m 'te [Ksst[?1l>[?2004l
+[0m[27m[24m[Jquote> [K[?1h=[?2004h'[?1l>[?2004l
+]2;git commit -v -m 'test ']1;gc[master e601a6b] test
+ Committer: Ryan Ridden-Harper <rridden@ryanr.local.stsci.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic/k2mosaic]1;..saic/k2mosaic[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic/k2mosaic [42m[34m [30m master ? ↑1 [49m[32m[39m [K[?1h=[?2004hggp[?1l>[?2004l
+]2;git push]1;gpEnumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 410 bytes | 410.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/CheerfulUser/k2mosaic.git
+   a22fd14..e601a6b  master -> master
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic/k2mosaic]1;..saic/k2mosaic[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic/k2mosaic [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004h...[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler/k2mosaic]1;..pler/k2mosaic[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler/k2mosaic [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004h...[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler]1;..k/code/kepler[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler [49m[34m[39m [K[20C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1322 [39m[37m[39m[47m[30m 15:43:08[K[00m[39m[49m[41D[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsUntitled.ipynb                   [1m[36mphotpipe[39;49m[0m
+junk.txt                         [30m[43mpipelines[39;49m[0m
+k2-ffi-headers.csv               [1m[36msn[39;49m[0m
+k2_mosaic_wcs_update.ipynb       test.txt
+[1m[36mk2mosaic[39;49m[0m                         work_out_why_no_update.ipynb
+[31mk2mosaic-c16-ch64-cad155889.fits[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/kepler]1;..k/code/kepler[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/kepler [49m[34m[39m [K[20C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1323 [39m[37m[39m[47m[30m 15:43:09[K[00m[39m[49m[41D[?1h=[?2004h...[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code]1;..nts/work/code[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code [49m[34m[39m [K[27C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1384 [39m[37m[39m[47m[30m 17:10:55[K[00m[39m[49m[48D[?1h=[?2004httess[1m/[0m[0m/tess
+[J[1;31mtessffi[0m/     [J[1;31mtessreduce[0m/[J[A[0m[27m[24m[0m[39m[49m[41Ctess/tess[K[18C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1384 [39m[37m[39m[47m[30m 17:10:55[K[00m[39m[49m[0m[39m[49m[39Dffi[1m/[0m
+[J[7mtessffi/   [0m  [J[1;31mtessreduce[0m/[J[A[0m[27m[24m[0m[39m[49m[41Ctess/tessffi[1m/[0m[K[14C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1384 [39m[37m[39m[47m[30m 17:10:55[K[00m[39m[49m[0m[39m[49m[35D
+[7mtessffi/   [0m  [7mtessffi/   [0m  [A[0m[27m[24m[0m[39m[49m[41Ctess/tessffi[1m/[0m[K[14C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1384 [39m[37m[39m[47m[30m 17:10:55[K[00m[39m[49m[0m[39m[49m[35Dred[0muce[1m/[0m
+[13C[7mtessreduce/[0m[1;31mtessffi[0m/     [A[0m[27m[24m[0m[39m[49m[41Ctess/tessreduce[1m/[0m[K[11C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1384 [39m[37m[39m[47m[30m 17:10:55[K[00m[39m[49m[0m[39m[49m[32D
+[J[A[57C[0m [?1l>[?2004l
+[J]2;tess/tessreduce]1;tess/tessreduce[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hppip install .[?1l>[?2004l
+]2;pip install .]1;pipProcessing /Users/rridden/Documents/work/code/tess/tessreduce
+Requirement already satisfied: lightkurve in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.11.2)
+Requirement already satisfied: numpy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.19.1)
+Requirement already satisfied: photutils in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.7.2)
+Requirement already satisfied: pandas in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.1.1)
+Requirement already satisfied: scipy!=1.4.0,!=1.4.1,>=0.19.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.5.2)
+Requirement already satisfied: astropy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (4.0.1.post1)
+Requirement already satisfied: joblib in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.16.0)
+Requirement already satisfied: multiprocess in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.70.10)
+Requirement already satisfied: patsy>=0.5.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.5.1)
+Requirement already satisfied: tqdm>=4.25.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (4.49.0)
+Requirement already satisfied: uncertainties in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.1.4)
+Requirement already satisfied: astroquery>=0.3.9 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.4.1)
+Requirement already satisfied: oktopus in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.1.2)
+Requirement already satisfied: fbpca>=1.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (1.0)
+Requirement already satisfied: bs4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.0.1)
+Requirement already satisfied: matplotlib>=1.5.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.2.2)
+Requirement already satisfied: requests in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (2.24.0)
+Requirement already satisfied: python-dateutil>=2.7.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2.8.1)
+Requirement already satisfied: pytz>=2017.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2020.1)
+Requirement already satisfied: dill>=0.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from multiprocess->tessreduce==0.2.0) (0.3.2)
+Requirement already satisfied: six in /Users/rridden/miniconda3/lib/python3.8/site-packages (from patsy>=0.5.1->lightkurve->tessreduce==0.2.0) (1.15.0)
+Requirement already satisfied: future in /Users/rridden/miniconda3/lib/python3.8/site-packages (from uncertainties->lightkurve->tessreduce==0.2.0) (0.18.2)
+Requirement already satisfied: keyring>=4.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (21.4.0)
+Requirement already satisfied: beautifulsoup4>=4.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (4.9.1)
+Requirement already satisfied: html5lib>=0.999 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.1)
+Requirement already satisfied: autograd in /Users/rridden/miniconda3/lib/python3.8/site-packages (from oktopus->lightkurve->tessreduce==0.2.0) (1.3)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (1.2.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (2.4.7)
+Requirement already satisfied: cycler>=0.10 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (0.10.0)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (1.25.10)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2020.6.20)
+Requirement already satisfied: idna<3,>=2.5 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2.10)
+Requirement already satisfied: chardet<4,>=3.0.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (3.0.4)
+Requirement already satisfied: soupsieve>1.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from beautifulsoup4>=4.3.2->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (2.0.1)
+Requirement already satisfied: webencodings in /Users/rridden/miniconda3/lib/python3.8/site-packages (from html5lib>=0.999->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (0.5.1)
+Building wheels for collected packages: tessreduce
+  Building wheel for tessreduce (setup.py) ... [?25l- done
+[?25h  Created wheel for tessreduce: filename=tessreduce-0.2.0-py3-none-any.whl size=100350 sha256=0fbbda7482c67c0bb4ff89f668f38761e51b2ea83e467f724505757eb66fdabc
+  Stored in directory: /private/var/folders/p4/pmr2qg1s1m7gtlp4x6d4q5kh0002g_/T/pip-ephem-wheel-cache-pp8nxrd_/wheels/5c/3f/ef/a1d871a6c0c96c6552d3ac3bdbd1e4f1ba2db0f2a183a5334d
+Successfully built tessreduce
+Installing collected packages: tessreduce
+  Attempting uninstall: tessreduce
+    Found existing installation: tessreduce 0.2.0
+    Uninstalling tessreduce-0.2.0:
+      Successfully uninstalled tessreduce-0.2.0
+Successfully installed tessreduce-0.2.0
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hpip install .[?1l>[?2004l
+]2;pip install .]1;pipProcessing /Users/rridden/Documents/work/code/tess/tessreduce
+Requirement already satisfied: lightkurve in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.11.2)
+Requirement already satisfied: numpy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.19.1)
+Requirement already satisfied: photutils in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.7.2)
+Requirement already satisfied: pandas in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.1.1)
+Requirement already satisfied: scipy!=1.4.0,!=1.4.1,>=0.19.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.5.2)
+Requirement already satisfied: astropy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (4.0.1.post1)
+Requirement already satisfied: joblib in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.16.0)
+Requirement already satisfied: multiprocess in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.70.10)
+Requirement already satisfied: matplotlib>=1.5.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.2.2)
+Requirement already satisfied: bs4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.0.1)
+Requirement already satisfied: astroquery>=0.3.9 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.4.1)
+Requirement already satisfied: tqdm>=4.25.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (4.49.0)
+Requirement already satisfied: uncertainties in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.1.4)
+Requirement already satisfied: fbpca>=1.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (1.0)
+Requirement already satisfied: oktopus in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.1.2)
+Requirement already satisfied: patsy>=0.5.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.5.1)
+Requirement already satisfied: requests in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (2.24.0)
+Requirement already satisfied: python-dateutil>=2.7.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2.8.1)
+Requirement already satisfied: pytz>=2017.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2020.1)
+Requirement already satisfied: dill>=0.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from multiprocess->tessreduce==0.2.0) (0.3.2)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (2.4.7)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (1.2.0)
+Requirement already satisfied: cycler>=0.10 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (0.10.0)
+Requirement already satisfied: beautifulsoup4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from bs4->lightkurve->tessreduce==0.2.0) (4.9.1)
+Requirement already satisfied: keyring>=4.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (21.4.0)
+Requirement already satisfied: html5lib>=0.999 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.1)
+Requirement already satisfied: six in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.15.0)
+Requirement already satisfied: future in /Users/rridden/miniconda3/lib/python3.8/site-packages (from uncertainties->lightkurve->tessreduce==0.2.0) (0.18.2)
+Requirement already satisfied: autograd in /Users/rridden/miniconda3/lib/python3.8/site-packages (from oktopus->lightkurve->tessreduce==0.2.0) (1.3)
+Requirement already satisfied: chardet<4,>=3.0.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (3.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2020.6.20)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (1.25.10)
+Requirement already satisfied: idna<3,>=2.5 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2.10)
+Requirement already satisfied: soupsieve>1.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from beautifulsoup4->bs4->lightkurve->tessreduce==0.2.0) (2.0.1)
+Requirement already satisfied: webencodings in /Users/rridden/miniconda3/lib/python3.8/site-packages (from html5lib>=0.999->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (0.5.1)
+Building wheels for collected packages: tessreduce
+  Building wheel for tessreduce (setup.py) ... [?25l- done
+[?25h  Created wheel for tessreduce: filename=tessreduce-0.2.0-py3-none-any.whl size=100355 sha256=7b2608f18714ab56fe51546fb5a2a98494db5875089fc56cc8755d414176c01c
+  Stored in directory: /private/var/folders/p4/pmr2qg1s1m7gtlp4x6d4q5kh0002g_/T/pip-ephem-wheel-cache-ywhtje2x/wheels/5c/3f/ef/a1d871a6c0c96c6552d3ac3bdbd1e4f1ba2db0f2a183a5334d
+Successfully built tessreduce
+Installing collected packages: tessreduce
+  Attempting uninstall: tessreduce
+    Found existing installation: tessreduce 0.2.0
+    Uninstalling tessreduce-0.2.0:
+      Successfully uninstalled tessreduce-0.2.0
+Successfully installed tessreduce-0.2.0
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hpip install .[?1l>[?2004l
+]2;pip install .]1;pipProcessing /Users/rridden/Documents/work/code/tess/tessreduce
+Requirement already satisfied: lightkurve in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.11.2)
+Requirement already satisfied: numpy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.19.1)
+Requirement already satisfied: photutils in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.7.2)
+Requirement already satisfied: pandas in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.1.1)
+Requirement already satisfied: scipy!=1.4.0,!=1.4.1,>=0.19.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.5.2)
+Requirement already satisfied: astropy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (4.0.1.post1)
+Requirement already satisfied: joblib in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.16.0)
+Requirement already satisfied: multiprocess in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.70.10)
+Requirement already satisfied: oktopus in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.1.2)
+Requirement already satisfied: tqdm>=4.25.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (4.49.0)
+Requirement already satisfied: uncertainties in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.1.4)
+Requirement already satisfied: matplotlib>=1.5.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.2.2)
+Requirement already satisfied: requests in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (2.24.0)
+Requirement already satisfied: patsy>=0.5.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.5.1)
+Requirement already satisfied: fbpca>=1.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (1.0)
+Requirement already satisfied: astroquery>=0.3.9 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.4.1)
+Requirement already satisfied: bs4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.0.1)
+Requirement already satisfied: python-dateutil>=2.7.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2.8.1)
+Requirement already satisfied: pytz>=2017.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2020.1)
+Requirement already satisfied: dill>=0.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from multiprocess->tessreduce==0.2.0) (0.3.2)
+Requirement already satisfied: autograd in /Users/rridden/miniconda3/lib/python3.8/site-packages (from oktopus->lightkurve->tessreduce==0.2.0) (1.3)
+Requirement already satisfied: future in /Users/rridden/miniconda3/lib/python3.8/site-packages (from uncertainties->lightkurve->tessreduce==0.2.0) (0.18.2)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (2.4.7)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (1.2.0)
+Requirement already satisfied: cycler>=0.10 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (0.10.0)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (1.25.10)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2020.6.20)
+Requirement already satisfied: idna<3,>=2.5 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2.10)
+Requirement already satisfied: chardet<4,>=3.0.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (3.0.4)
+Requirement already satisfied: six in /Users/rridden/miniconda3/lib/python3.8/site-packages (from patsy>=0.5.1->lightkurve->tessreduce==0.2.0) (1.15.0)
+Requirement already satisfied: keyring>=4.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (21.4.0)
+Requirement already satisfied: beautifulsoup4>=4.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (4.9.1)
+Requirement already satisfied: html5lib>=0.999 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.1)
+Requirement already satisfied: soupsieve>1.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from beautifulsoup4>=4.3.2->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (2.0.1)
+Requirement already satisfied: webencodings in /Users/rridden/miniconda3/lib/python3.8/site-packages (from html5lib>=0.999->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (0.5.1)
+Building wheels for collected packages: tessreduce
+  Building wheel for tessreduce (setup.py) ... [?25l- done
+[?25h  Created wheel for tessreduce: filename=tessreduce-0.2.0-py3-none-any.whl size=100352 sha256=83e1bbb6a09fb1575690d498c3c828d9a58566d5a383c26d5b11e7496dacb728
+  Stored in directory: /private/var/folders/p4/pmr2qg1s1m7gtlp4x6d4q5kh0002g_/T/pip-ephem-wheel-cache-e2f6zgc4/wheels/5c/3f/ef/a1d871a6c0c96c6552d3ac3bdbd1e4f1ba2db0f2a183a5334d
+Successfully built tessreduce
+Installing collected packages: tessreduce
+  Attempting uninstall: tessreduce
+    Found existing installation: tessreduce 0.2.0
+    Uninstalling tessreduce-0.2.0:
+      Successfully uninstalled tessreduce-0.2.0
+Successfully installed tessreduce-0.2.0
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hpip install .[?1l>[?2004l
+]2;pip install .]1;pipProcessing /Users/rridden/Documents/work/code/tess/tessreduce
+Requirement already satisfied: lightkurve in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.11.2)
+Requirement already satisfied: numpy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.19.1)
+Requirement already satisfied: photutils in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.7.2)
+Requirement already satisfied: pandas in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.1.1)
+Requirement already satisfied: scipy!=1.4.0,!=1.4.1,>=0.19.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.5.2)
+Requirement already satisfied: astropy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (4.0.1.post1)
+Requirement already satisfied: joblib in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.16.0)
+Requirement already satisfied: multiprocess in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.70.10)
+Requirement already satisfied: patsy>=0.5.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.5.1)
+Requirement already satisfied: uncertainties in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.1.4)
+Requirement already satisfied: fbpca>=1.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (1.0)
+Requirement already satisfied: astroquery>=0.3.9 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.4.1)
+Requirement already satisfied: oktopus in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.1.2)
+Requirement already satisfied: bs4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.0.1)
+Requirement already satisfied: matplotlib>=1.5.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.2.2)
+Requirement already satisfied: tqdm>=4.25.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (4.49.0)
+Requirement already satisfied: requests in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (2.24.0)
+Requirement already satisfied: python-dateutil>=2.7.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2.8.1)
+Requirement already satisfied: pytz>=2017.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2020.1)
+Requirement already satisfied: dill>=0.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from multiprocess->tessreduce==0.2.0) (0.3.2)
+Requirement already satisfied: six in /Users/rridden/miniconda3/lib/python3.8/site-packages (from patsy>=0.5.1->lightkurve->tessreduce==0.2.0) (1.15.0)
+Requirement already satisfied: future in /Users/rridden/miniconda3/lib/python3.8/site-packages (from uncertainties->lightkurve->tessreduce==0.2.0) (0.18.2)
+Requirement already satisfied: keyring>=4.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (21.4.0)
+Requirement already satisfied: beautifulsoup4>=4.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (4.9.1)
+Requirement already satisfied: html5lib>=0.999 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.1)
+Requirement already satisfied: autograd in /Users/rridden/miniconda3/lib/python3.8/site-packages (from oktopus->lightkurve->tessreduce==0.2.0) (1.3)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (1.2.0)
+Requirement already satisfied: cycler>=0.10 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (0.10.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (2.4.7)
+Requirement already satisfied: chardet<4,>=3.0.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (3.0.4)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (1.25.10)
+Requirement already satisfied: idna<3,>=2.5 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2.10)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2020.6.20)
+Requirement already satisfied: soupsieve>1.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from beautifulsoup4>=4.3.2->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (2.0.1)
+Requirement already satisfied: webencodings in /Users/rridden/miniconda3/lib/python3.8/site-packages (from html5lib>=0.999->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (0.5.1)
+Building wheels for collected packages: tessreduce
+  Building wheel for tessreduce (setup.py) ... [?25l- done
+[?25h  Created wheel for tessreduce: filename=tessreduce-0.2.0-py3-none-any.whl size=100353 sha256=b602ae7220a96e77956a3bcb9fdf96e2590c78c04f61ad8d33d5aa3527bcfe9f
+  Stored in directory: /private/var/folders/p4/pmr2qg1s1m7gtlp4x6d4q5kh0002g_/T/pip-ephem-wheel-cache-0ezhg13l/wheels/5c/3f/ef/a1d871a6c0c96c6552d3ac3bdbd1e4f1ba2db0f2a183a5334d
+Successfully built tessreduce
+Installing collected packages: tessreduce
+  Attempting uninstall: tessreduce
+    Found existing installation: tessreduce 0.2.0
+    Uninstalling tessreduce-0.2.0:
+      Successfully uninstalled tessreduce-0.2.0
+Successfully installed tessreduce-0.2.0
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hpip install .[?1l>[?2004l
+]2;pip install .]1;pipProcessing /Users/rridden/Documents/work/code/tess/tessreduce
+Requirement already satisfied: lightkurve in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.11.2)
+Requirement already satisfied: numpy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.19.1)
+Requirement already satisfied: photutils in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.7.2)
+Requirement already satisfied: pandas in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.1.1)
+Requirement already satisfied: scipy!=1.4.0,!=1.4.1,>=0.19.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.5.2)
+Requirement already satisfied: astropy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (4.0.1.post1)
+Requirement already satisfied: joblib in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.16.0)
+Requirement already satisfied: multiprocess in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.70.10)
+Requirement already satisfied: astroquery>=0.3.9 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.4.1)
+Requirement already satisfied: matplotlib>=1.5.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.2.2)
+Requirement already satisfied: bs4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.0.1)
+Requirement already satisfied: oktopus in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.1.2)
+Requirement already satisfied: uncertainties in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.1.4)
+Requirement already satisfied: tqdm>=4.25.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (4.49.0)
+Requirement already satisfied: requests in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (2.24.0)
+Requirement already satisfied: patsy>=0.5.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.5.1)
+Requirement already satisfied: fbpca>=1.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (1.0)
+Requirement already satisfied: pytz>=2017.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2020.1)
+Requirement already satisfied: python-dateutil>=2.7.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2.8.1)
+Requirement already satisfied: dill>=0.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from multiprocess->tessreduce==0.2.0) (0.3.2)
+Requirement already satisfied: keyring>=4.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (21.4.0)
+Requirement already satisfied: beautifulsoup4>=4.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (4.9.1)
+Requirement already satisfied: html5lib>=0.999 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.1)
+Requirement already satisfied: six in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.15.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (2.4.7)
+Requirement already satisfied: cycler>=0.10 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (0.10.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (1.2.0)
+Requirement already satisfied: autograd in /Users/rridden/miniconda3/lib/python3.8/site-packages (from oktopus->lightkurve->tessreduce==0.2.0) (1.3)
+Requirement already satisfied: future in /Users/rridden/miniconda3/lib/python3.8/site-packages (from uncertainties->lightkurve->tessreduce==0.2.0) (0.18.2)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (1.25.10)
+Requirement already satisfied: idna<3,>=2.5 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2.10)
+Requirement already satisfied: chardet<4,>=3.0.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (3.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2020.6.20)
+Requirement already satisfied: soupsieve>1.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from beautifulsoup4>=4.3.2->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (2.0.1)
+Requirement already satisfied: webencodings in /Users/rridden/miniconda3/lib/python3.8/site-packages (from html5lib>=0.999->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (0.5.1)
+Building wheels for collected packages: tessreduce
+  Building wheel for tessreduce (setup.py) ... [?25l- done
+[?25h  Created wheel for tessreduce: filename=tessreduce-0.2.0-py3-none-any.whl size=100354 sha256=522193d45cfbc42faed4a865e36a6b8560d8617eac68fd805eaf22c37c5c7f63
+  Stored in directory: /private/var/folders/p4/pmr2qg1s1m7gtlp4x6d4q5kh0002g_/T/pip-ephem-wheel-cache-1spoqnh4/wheels/5c/3f/ef/a1d871a6c0c96c6552d3ac3bdbd1e4f1ba2db0f2a183a5334d
+Successfully built tessreduce
+Installing collected packages: tessreduce
+  Attempting uninstall: tessreduce
+    Found existing installation: tessreduce 0.2.0
+    Uninstalling tessreduce-0.2.0:
+      Successfully uninstalled tessreduce-0.2.0
+Successfully installed tessreduce-0.2.0
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hgga *[?1l>[?2004l
+]2;git add *]1;gaThe following paths are ignored by one of your .gitignore files:
+__pycache__
+Use -f if you really want to add them.
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ✚ ? [49m[33m[39m [K[?1h=[?2004hggc -m ''u'p'd'a't'e' 'w'o'r' [K[A[89Ck'i'in'g' 'o'n' 't'h'i'n'g's' '' .'[?1l>[?2004l
+]2;git commit -v -m 'update working on things.']1;gc[master dfd7e9e] update working on things.
+ Committer: Ryan Ridden-Harper <rridden@ryanr.local.stsci.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 24 insertions(+), 12 deletions(-)
+ create mode 100644 tessreduce/web path
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [42m[34m [30m master ? ↑1 [49m[32m[39m [K[?1h=[?2004hggp[?1l>[?2004l
+]2;git push]1;gpEnumerating objects: 8, done.
+Counting objects:  12% (1/8)Counting objects:  25% (2/8)Counting objects:  37% (3/8)Counting objects:  50% (4/8)Counting objects:  62% (5/8)Counting objects:  75% (6/8)Counting objects:  87% (7/8)Counting objects: 100% (8/8)Counting objects: 100% (8/8), done.
+Delta compression using up to 16 threads
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 796 bytes | 796.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/CheerfulUser/TESSreduce.git
+   dc3b109..dfd7e9e  master -> master
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hg ggit status[?1l>[?2004l
+]2;git status]1;gitOn branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.DS_Store[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hgga *[?1l>[?2004l
+]2;git add *]1;gaThe following paths are ignored by one of your .gitignore files:
+__pycache__
+Use -f if you really want to add them.
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hggc -m ''u'p'd'a't'e'[?1l>[?2004l
+]2;git commit -v -m 'update']1;gcOn branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+	[31m.DS_Store[m
+
+nothing added to commit but untracked files present
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hggp[?1l>[?2004l
+]2;git push]1;gpEverything up-to-date
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hoopen  o  oopen tessreduce[1m/[0m[0m/tess [K[A[89C[K[1B[K[A[89C                o  [?1l>[?2004l[1B[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004ho ttessre. s     t  lls[?1l>[?2004l
+]2;ls -G]1;lsExample.ipynb MANIFEST.in   [1m[36m__pycache__[39;49m[0m   setup.py
+LICENSE       README.md     [1m[36mdevelopment[39;49m[0m   [1m[36mtessreduce[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hccd tessreduce[1m/[0m[0m [?1l>[?2004l
+]2;cd tessreduce]1;cd[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce/tessreduce]1;..ce/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls#__init__.py#        [1m[36m__pycache__[39;49m[0m          calspec_mags.npy     tess_straps.csv
+[31mTonry_splines.txt[39;49m[0m    __version__.py       catalog_tools.py     tessreduce.py
+__init__.py          calibration_tools.py sigmacut.py          web path
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce/tessreduce]1;..ce/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hoopen tess [K[K
+[J[0mtess_straps.csv  [Jtessreduce.py  [J[A[A[0m[27m[24m[0m[39m[49m[81Copen tess [K[0m[39m[49m_straps.csv
+[J[7mtess_straps.csv[0m  [Jtessreduce.py  [J[A[A[0m[27m[24m[0m[39m[49m[81Copen tess_straps.csv[K[0m[39m[49m
+[7mtess_straps.csv[0m  [7mtess_straps.csv[0m  [A[A[0m[27m[24m[0m[39m[49m[81Copen tess_straps.csv[K[0m[39m[49mreduce.py[K
+[17C[7mtessreduce.py  [0mtess_straps.csv  [A[A[0m[27m[24m[0m[39m[49m[81Copen tessreduce.py[K[0m[39m[49m_straps.csv
+[7mtess_straps.csv[0m  [17Ctessreduce.py  [A[A[0m[27m[24m[0m[39m[49m[81Copen tess_straps.csv[K[0m[39m[49mreduce.py[K
+[17C[7mtessreduce.py  [0mtess_straps.csv  [A[A[0m[27m[24m[0m[39m[49m[81Copen tessreduce.py[K[0m[39m[49m
+[17C[7mtessreduce.py  [0m[17C[7mtessreduce.py  [0m[A[A[0m[27m[24m[0m[39m[49m[81Copen tessreduce.py[K[0m[39m[49m_straps.csv
+[7mtess_straps.csv[0m  [17Ctessreduce.py  [A[A[0m[27m[24m[0m[39m[49m[81Copen tess_straps.csv[K[0m[39m[49m
+[7mtess_straps.csv[0m  [7mtess_straps.csv[0m  [A[A[0m[27m[24m[0m[39m[49m[81Copen tess_straps.csv[K[0m[39m[49m
+[J[A[11C[1m [0m[0m open              _ [K[A[89C[K[1B[K[A[89C     o  [?2004l[1B[J[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce/tessreduce]1;..ce/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hoopen .[?1l>[?2004l
+]2;open .]1;open[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce/tessreduce]1;..ce/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hppip install .[?1l>[?2004l
+]2;pip install .]1;pipProcessing /Users/rridden/Documents/work/code/tess/tessreduce
+Requirement already satisfied: lightkurve in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.11.2)
+Requirement already satisfied: numpy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.19.1)
+Requirement already satisfied: photutils in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.7.2)
+Requirement already satisfied: pandas in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.1.1)
+Requirement already satisfied: scipy!=1.4.0,!=1.4.1,>=0.19.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.5.2)
+Requirement already satisfied: astropy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (4.0.1.post1)
+Requirement already satisfied: joblib in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.16.0)
+Requirement already satisfied: multiprocess in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.70.10)
+Requirement already satisfied: bs4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.0.1)
+Requirement already satisfied: astroquery>=0.3.9 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.4.1)
+Requirement already satisfied: requests in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (2.24.0)
+Requirement already satisfied: tqdm>=4.25.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (4.49.0)
+Requirement already satisfied: matplotlib>=1.5.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.2.2)
+Requirement already satisfied: patsy>=0.5.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.5.1)
+Requirement already satisfied: fbpca>=1.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (1.0)
+Requirement already satisfied: oktopus in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.1.2)
+Requirement already satisfied: uncertainties in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.1.4)
+Requirement already satisfied: pytz>=2017.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2020.1)
+Requirement already satisfied: python-dateutil>=2.7.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2.8.1)
+Requirement already satisfied: dill>=0.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from multiprocess->tessreduce==0.2.0) (0.3.2)
+Requirement already satisfied: beautifulsoup4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from bs4->lightkurve->tessreduce==0.2.0) (4.9.1)
+Requirement already satisfied: keyring>=4.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (21.4.0)
+Requirement already satisfied: html5lib>=0.999 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.1)
+Requirement already satisfied: six in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.15.0)
+Requirement already satisfied: chardet<4,>=3.0.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (3.0.4)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (1.25.10)
+Requirement already satisfied: idna<3,>=2.5 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2.10)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2020.6.20)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (2.4.7)
+Requirement already satisfied: cycler>=0.10 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (0.10.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (1.2.0)
+Requirement already satisfied: autograd in /Users/rridden/miniconda3/lib/python3.8/site-packages (from oktopus->lightkurve->tessreduce==0.2.0) (1.3)
+Requirement already satisfied: future in /Users/rridden/miniconda3/lib/python3.8/site-packages (from uncertainties->lightkurve->tessreduce==0.2.0) (0.18.2)
+Requirement already satisfied: soupsieve>1.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from beautifulsoup4->bs4->lightkurve->tessreduce==0.2.0) (2.0.1)
+Requirement already satisfied: webencodings in /Users/rridden/miniconda3/lib/python3.8/site-packages (from html5lib>=0.999->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (0.5.1)
+Building wheels for collected packages: tessreduce
+  Building wheel for tessreduce (setup.py) ... [?25l- done
+[?25h  Created wheel for tessreduce: filename=tessreduce-0.2.0-py3-none-any.whl size=100355 sha256=3978f8d6184080ee744009f28094c7bde4d84410e49593a0c109421babfbce9a
+  Stored in directory: /private/var/folders/p4/pmr2qg1s1m7gtlp4x6d4q5kh0002g_/T/pip-ephem-wheel-cache-ga9rmaus/wheels/5c/3f/ef/a1d871a6c0c96c6552d3ac3bdbd1e4f1ba2db0f2a183a5334d
+Successfully built tessreduce
+Installing collected packages: tessreduce
+  Attempting uninstall: tessreduce
+    Found existing installation: tessreduce 0.2.0
+    Uninstalling tessreduce-0.2.0:
+      Successfully uninstalled tessreduce-0.2.0
+Successfully installed tessreduce-0.2.0
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hoopn en tr essreduce[1m/[0m[0m/
+[1;32mTonry_splines.txt[0m*    [1;31m__pycache__[0m/          calspec_mags.npy      tess_straps.csv     
+\#__init__.py\#       __version__.py        catalog_tools.py      tessreduce.py       
+[J__init__.py           [Jcalibration_tools.py  [Jsigmacut.py           [Jweb\ path           [J[3A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/[K[0m[39m[49mTonry_splines.txt[K
+[7mTonry_splines.txt*  [0m  [1;31m__pycache__[0m/          calspec_mags.npy      tess_straps.csv     [K
+\#__init__.py\#       __version__.py        catalog_tools.py      tessreduce.py       [K
+[J__init__.py           [Jcalibration_tools.py  [Jsigmacut.py           [Jweb\ path           [J[4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/Tonry_splines.txt[K[0m[39m[49m
+[7mTonry_splines.txt*  [0m  [7mTonry_splines.txt*  [0m  [A[A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/Tonry_splines.txt[K[0m[39m[49m[A[73C__pycache__[1m/[0m[K
+[22C[7m__pycache__/        [0m  [1;32mTonry_splines.txt[0m*    [A[A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/__pycache__[1m/[0m[K[0m[39m[49m[A[78Ccalspec_mag[0ms.npy
+[44C[7mcalspec_mags.npy    [0m  [22C[1;31m__pycache__[0m/          [A[A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/calspec_mags.npy[K[0m[39m[49m[A[74Ctes[1B_straps.csv[K
+[66C[7mtess_straps.csv     [0m[44Ccalspec_mags.npy      [A[A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tess_straps.csv[K[0m[39m[49mreduce.py[K
+[66C[0mtess_straps.csv     [1B[66C[7mtessreduce.py       [0m[3A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tessreduce.py[K[0m[39m[49m[A[77Cweb\ path[K
+[1B[66C[0mtessreduce.py       [1B[66C[7mweb\ path           [0m[4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/web\ path[K[0m[39m[49m[A[81Ctess_straps.csv
+[66C[7mtess_straps.csv     [0m[2B[66Cweb\ path           [4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tess_straps.csv[K[0m[39m[49mreduce.py[K
+[66C[0mtess_straps.csv     [1B[66C[7mtessreduce.py       [0m[3A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tessreduce.py[K[0m[39m[49m[A[77Cweb\ path[K
+[1B[66C[0mtessreduce.py       [1B[66C[7mweb\ path           [0m[4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/web\ path[K[0m[39m[49m[A[81Ctess_straps.csv
+[66C[7mtess_straps.csv     [0m[2B[66Cweb\ path           [4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tess_straps.csv[K[0m[39m[49mreduce.py[K
+[66C[0mtess_straps.csv     [1B[66C[7mtessreduce.py       [0m[3A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tessreduce.py[K[0m[39m[49m[A[77Cweb\ path[K
+[1B[66C[0mtessreduce.py       [1B[66C[7mweb\ path           [0m[4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/web\ path[K[0m[39m[49m[A[81Ctess_straps.csv
+[66C[7mtess_straps.csv     [0m[2B[66Cweb\ path           [4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tess_straps.csv[K[0m[39m[49mreduce.py[K
+[66C[0mtess_straps.csv     [1B[66C[7mtessreduce.py       [0m[3A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tessreduce.py[K[0m[39m[49m[A[77Cweb\ path[K
+[1B[66C[0mtessreduce.py       [1B[66C[7mweb\ path           [0m[4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/web\ path[K[0m[39m[49m[A[81Ctess_straps.csv
+[66C[7mtess_straps.csv     [0m[2B[66Cweb\ path           [4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tess_straps.csv[K[0m[39m[49mreduce.py[K
+[66C[0mtess_straps.csv     [1B[66C[7mtessreduce.py       [0m[3A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tessreduce.py[K[0m[39m[49m[A[77Cweb\ path[K
+[1B[66C[0mtessreduce.py       [1B[66C[7mweb\ path           [0m[4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/web\ path[K[0m[39m[49m[A[81Ctess_straps.csv
+[66C[7mtess_straps.csv     [0m[2B[66Cweb\ path           [4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tess_straps.csv[K[0m[39m[49mreduce.py[K
+[66C[0mtess_straps.csv     [1B[66C[7mtessreduce.py       [0m[3A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tessreduce.py[K[0m[39m[49m[A[77Cweb\ path[K
+[1B[66C[0mtessreduce.py       [1B[66C[7mweb\ path           [0m[4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/web\ path[K[0m[39m[49m[A[81Ctess_straps.csv
+[66C[7mtess_straps.csv     [0m[2B[66Cweb\ path           [4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tess_straps.csv[K[0m[39m[49mreduce.py[K
+[66C[0mtess_straps.csv     [1B[66C[7mtessreduce.py       [0m[3A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tessreduce.py[K[0m[39m[49m[A[77Cweb\ path[K
+[1B[66C[0mtessreduce.py       [1B[66C[7mweb\ path           [0m[4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/web\ path[K[0m[39m[49m[A[81Ctess_straps.csv
+[66C[7mtess_straps.csv     [0m[2B[66Cweb\ path           [4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tess_straps.csv[K[0m[39m[49mreduce.py[K
+[66C[0mtess_straps.csv     [1B[66C[7mtessreduce.py       [0m[3A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tessreduce.py[K[0m[39m[49m[A[77Cweb\ path[K
+[1B[66C[0mtessreduce.py       [1B[66C[7mweb\ path           [0m[4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/web\ path[K[0m[39m[49m[A[81Ctess_straps.csv
+[66C[7mtess_straps.csv     [0m[2B[66Cweb\ path           [4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tess_straps.csv[K[0m[39m[49mreduce.py[K
+[66C[0mtess_straps.csv     [1B[66C[7mtessreduce.py       [0m[3A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tessreduce.py[K[0m[39m[49m[A[77Cweb\ path[K
+[1B[66C[0mtessreduce.py       [1B[66C[7mweb\ path           [0m[4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/web\ path[K[0m[39m[49m[A[81Ctess_straps.csv
+[66C[7mtess_straps.csv     [0m[2B[66Cweb\ path           [4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tess_straps.csv[K[0m[39m[49mreduce.py[K
+[66C[0mtess_straps.csv     [1B[66C[7mtessreduce.py       [0m[3A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tessreduce.py[K[0m[39m[49m[A[77Cweb\ path[K
+[1B[66C[0mtessreduce.py       [1B[66C[7mweb\ path           [0m[4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/web\ path[K[0m[39m[49m[A[81Ctess_straps.csv
+[66C[7mtess_straps.csv     [0m[2B[66Cweb\ path           [4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tess_straps.csv[K[0m[39m[49mreduce.py[K
+[66C[0mtess_straps.csv     [1B[66C[7mtessreduce.py       [0m[3A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tessreduce.py[K[0m[39m[49m[A[77Cweb\ path[K
+[1B[66C[0mtessreduce.py       [1B[66C[7mweb\ path           [0m[4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/web\ path[K[0m[39m[49m[A[81Ctess_straps.csv
+[66C[7mtess_straps.csv     [0m[2B[66Cweb\ path           [4A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tess_straps.csv[K[0m[39m[49mreduce.py[K
+[66C[0mtess_straps.csv     [1B[66C[7mtessreduce.py       [0m[3A[0m[27m[24m[0m[39m[49m[70Copen tessreduce/tessreduce.py[K[0m[39m[49m
+[J[A[9C[1m [0m[0m        r [K[A[89C[K[1B[K[A[89C                [?2004l[1B[J[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hccd tessreduce[1m/[0m[0m [?1l>[?2004l
+]2;cd tessreduce]1;cd[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce/tessreduce]1;..ce/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls#__init__.py#        [1m[36m__pycache__[39;49m[0m          calspec_mags.npy     tess_straps.csv
+[31mTonry_splines.txt[39;49m[0m    __version__.py       catalog_tools.py     tessreduce.py
+__init__.py          calibration_tools.py sigmacut.py          web path
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce/tessreduce]1;..ce/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hp oopen cal
+[J[0mcalibration_tools.py  [Jcalspec_mags.npy    [J[A[0m[27m[24m[0m[39m[49m[81Copen cal[K[0m[39m[49mi [Kbration_tools.py[1m [0m[0m 
+[J[1;32mTonry_splines.txt[0m*    calibration_tools.py  gopher://             tessreduce.py       
+\#__init__.py\#       calspec_mags.npy      http://               web\ path           
+__init__.py           catalog_tools.py      https://                                  
+[1;31m__pycache__[0m/          file:                 sigmacut.py                               
+[J__version__.py        [Jftp://                [Jtess_straps.csv       [J                    [6A[0m[27m[24m[0m[39m[49m[81Copen calibration_tools.py[K[0m[39m[49m[1C[?1l>[?2004l
+[J]2;open calibration_tools.py]1;open[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce/tessreduce]1;..ce/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hppip install .[?1l>[?2004l
+]2;pip install .]1;pipProcessing /Users/rridden/Documents/work/code/tess/tessreduce
+Requirement already satisfied: lightkurve in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.11.2)
+Requirement already satisfied: numpy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.19.1)
+Requirement already satisfied: photutils in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.7.2)
+Requirement already satisfied: pandas in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.1.1)
+Requirement already satisfied: scipy!=1.4.0,!=1.4.1,>=0.19.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.5.2)
+Requirement already satisfied: astropy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (4.0.1.post1)
+Requirement already satisfied: joblib in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.16.0)
+Requirement already satisfied: multiprocess in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.70.10)
+Requirement already satisfied: matplotlib>=1.5.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.2.2)
+Requirement already satisfied: patsy>=0.5.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.5.1)
+Requirement already satisfied: oktopus in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.1.2)
+Requirement already satisfied: uncertainties in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.1.4)
+Requirement already satisfied: requests in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (2.24.0)
+Requirement already satisfied: astroquery>=0.3.9 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.4.1)
+Requirement already satisfied: bs4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.0.1)
+Requirement already satisfied: tqdm>=4.25.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (4.49.0)
+Requirement already satisfied: fbpca>=1.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (1.0)
+Requirement already satisfied: python-dateutil>=2.7.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2.8.1)
+Requirement already satisfied: pytz>=2017.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2020.1)
+Requirement already satisfied: dill>=0.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from multiprocess->tessreduce==0.2.0) (0.3.2)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (2.4.7)
+Requirement already satisfied: cycler>=0.10 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (0.10.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (1.2.0)
+Requirement already satisfied: six in /Users/rridden/miniconda3/lib/python3.8/site-packages (from patsy>=0.5.1->lightkurve->tessreduce==0.2.0) (1.15.0)
+Requirement already satisfied: autograd in /Users/rridden/miniconda3/lib/python3.8/site-packages (from oktopus->lightkurve->tessreduce==0.2.0) (1.3)
+Requirement already satisfied: future in /Users/rridden/miniconda3/lib/python3.8/site-packages (from uncertainties->lightkurve->tessreduce==0.2.0) (0.18.2)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (1.25.10)
+Requirement already satisfied: chardet<4,>=3.0.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (3.0.4)
+Requirement already satisfied: idna<3,>=2.5 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2.10)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2020.6.20)
+Requirement already satisfied: keyring>=4.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (21.4.0)
+Requirement already satisfied: beautifulsoup4>=4.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (4.9.1)
+Requirement already satisfied: html5lib>=0.999 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.1)
+Requirement already satisfied: soupsieve>1.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from beautifulsoup4>=4.3.2->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (2.0.1)
+Requirement already satisfied: webencodings in /Users/rridden/miniconda3/lib/python3.8/site-packages (from html5lib>=0.999->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (0.5.1)
+Building wheels for collected packages: tessreduce
+  Building wheel for tessreduce (setup.py) ... [?25l- done
+[?25h  Created wheel for tessreduce: filename=tessreduce-0.2.0-py3-none-any.whl size=100358 sha256=b49af88b80a3304b3b46110c593669ae1fd608dd7fa5d26ced4b1f6342e1ecb4
+  Stored in directory: /private/var/folders/p4/pmr2qg1s1m7gtlp4x6d4q5kh0002g_/T/pip-ephem-wheel-cache-puahc_0i/wheels/5c/3f/ef/a1d871a6c0c96c6552d3ac3bdbd1e4f1ba2db0f2a183a5334d
+Successfully built tessreduce
+Installing collected packages: tessreduce
+  Attempting uninstall: tessreduce
+    Found existing installation: tessreduce 0.2.0
+    Uninstalling tessreduce-0.2.0:
+      Successfully uninstalled tessreduce-0.2.0
+Successfully installed tessreduce-0.2.0
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hpip install .[?1l>[?2004l
+]2;pip install .]1;pipProcessing /Users/rridden/Documents/work/code/tess/tessreduce
+Requirement already satisfied: lightkurve in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.11.2)
+Requirement already satisfied: numpy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.19.1)
+Requirement already satisfied: photutils in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.7.2)
+Requirement already satisfied: pandas in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.1.1)
+Requirement already satisfied: scipy!=1.4.0,!=1.4.1,>=0.19.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.5.2)
+Requirement already satisfied: astropy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (4.0.1.post1)
+Requirement already satisfied: joblib in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.16.0)
+Requirement already satisfied: multiprocess in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.70.10)
+Requirement already satisfied: patsy>=0.5.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.5.1)
+Requirement already satisfied: tqdm>=4.25.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (4.49.0)
+Requirement already satisfied: matplotlib>=1.5.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.2.2)
+Requirement already satisfied: oktopus in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.1.2)
+Requirement already satisfied: fbpca>=1.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (1.0)
+Requirement already satisfied: requests in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (2.24.0)
+Requirement already satisfied: bs4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.0.1)
+Requirement already satisfied: astroquery>=0.3.9 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.4.1)
+Requirement already satisfied: uncertainties in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.1.4)
+Requirement already satisfied: pytz>=2017.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2020.1)
+Requirement already satisfied: python-dateutil>=2.7.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2.8.1)
+Requirement already satisfied: dill>=0.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from multiprocess->tessreduce==0.2.0) (0.3.2)
+Requirement already satisfied: six in /Users/rridden/miniconda3/lib/python3.8/site-packages (from patsy>=0.5.1->lightkurve->tessreduce==0.2.0) (1.15.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (1.2.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (2.4.7)
+Requirement already satisfied: cycler>=0.10 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (0.10.0)
+Requirement already satisfied: autograd in /Users/rridden/miniconda3/lib/python3.8/site-packages (from oktopus->lightkurve->tessreduce==0.2.0) (1.3)
+Requirement already satisfied: idna<3,>=2.5 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2.10)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2020.6.20)
+Requirement already satisfied: chardet<4,>=3.0.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (3.0.4)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (1.25.10)
+Requirement already satisfied: beautifulsoup4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from bs4->lightkurve->tessreduce==0.2.0) (4.9.1)
+Requirement already satisfied: keyring>=4.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (21.4.0)
+Requirement already satisfied: html5lib>=0.999 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.1)
+Requirement already satisfied: future in /Users/rridden/miniconda3/lib/python3.8/site-packages (from uncertainties->lightkurve->tessreduce==0.2.0) (0.18.2)
+Requirement already satisfied: soupsieve>1.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from beautifulsoup4->bs4->lightkurve->tessreduce==0.2.0) (2.0.1)
+Requirement already satisfied: webencodings in /Users/rridden/miniconda3/lib/python3.8/site-packages (from html5lib>=0.999->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (0.5.1)
+Building wheels for collected packages: tessreduce
+  Building wheel for tessreduce (setup.py) ... [?25l- done
+[?25h  Created wheel for tessreduce: filename=tessreduce-0.2.0-py3-none-any.whl size=100363 sha256=6e17d5eb40f2826abc3c40809785a75845252128e0bfc4f4a3675862c62c87e2
+  Stored in directory: /private/var/folders/p4/pmr2qg1s1m7gtlp4x6d4q5kh0002g_/T/pip-ephem-wheel-cache-l33xpz37/wheels/5c/3f/ef/a1d871a6c0c96c6552d3ac3bdbd1e4f1ba2db0f2a183a5334d
+Successfully built tessreduce
+Installing collected packages: tessreduce
+  Attempting uninstall: tessreduce
+    Found existing installation: tessreduce 0.2.0
+    Uninstalling tessreduce-0.2.0:
+      Successfully uninstalled tessreduce-0.2.0
+Successfully installed tessreduce-0.2.0
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hpip install .[?1l>[?2004l
+]2;pip install .]1;pipProcessing /Users/rridden/Documents/work/code/tess/tessreduce
+Requirement already satisfied: lightkurve in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.11.2)
+Requirement already satisfied: numpy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.19.1)
+Requirement already satisfied: photutils in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.7.2)
+Requirement already satisfied: pandas in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.1.1)
+Requirement already satisfied: scipy!=1.4.0,!=1.4.1,>=0.19.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.5.2)
+Requirement already satisfied: astropy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (4.0.1.post1)
+Requirement already satisfied: joblib in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.16.0)
+Requirement already satisfied: multiprocess in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.70.10)
+Requirement already satisfied: patsy>=0.5.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.5.1)
+Requirement already satisfied: requests in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (2.24.0)
+Requirement already satisfied: tqdm>=4.25.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (4.49.0)
+Requirement already satisfied: uncertainties in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.1.4)
+Requirement already satisfied: bs4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.0.1)
+Requirement already satisfied: astroquery>=0.3.9 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.4.1)
+Requirement already satisfied: matplotlib>=1.5.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.2.2)
+Requirement already satisfied: fbpca>=1.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (1.0)
+Requirement already satisfied: oktopus in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.1.2)
+Requirement already satisfied: python-dateutil>=2.7.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2.8.1)
+Requirement already satisfied: pytz>=2017.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2020.1)
+Requirement already satisfied: dill>=0.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from multiprocess->tessreduce==0.2.0) (0.3.2)
+Requirement already satisfied: six in /Users/rridden/miniconda3/lib/python3.8/site-packages (from patsy>=0.5.1->lightkurve->tessreduce==0.2.0) (1.15.0)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2020.6.20)
+Requirement already satisfied: chardet<4,>=3.0.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (3.0.4)
+Requirement already satisfied: idna<3,>=2.5 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2.10)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (1.25.10)
+Requirement already satisfied: future in /Users/rridden/miniconda3/lib/python3.8/site-packages (from uncertainties->lightkurve->tessreduce==0.2.0) (0.18.2)
+Requirement already satisfied: beautifulsoup4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from bs4->lightkurve->tessreduce==0.2.0) (4.9.1)
+Requirement already satisfied: keyring>=4.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (21.4.0)
+Requirement already satisfied: html5lib>=0.999 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.1)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (1.2.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (2.4.7)
+Requirement already satisfied: cycler>=0.10 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (0.10.0)
+Requirement already satisfied: autograd in /Users/rridden/miniconda3/lib/python3.8/site-packages (from oktopus->lightkurve->tessreduce==0.2.0) (1.3)
+Requirement already satisfied: soupsieve>1.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from beautifulsoup4->bs4->lightkurve->tessreduce==0.2.0) (2.0.1)
+Requirement already satisfied: webencodings in /Users/rridden/miniconda3/lib/python3.8/site-packages (from html5lib>=0.999->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (0.5.1)
+Building wheels for collected packages: tessreduce
+  Building wheel for tessreduce (setup.py) ... [?25l- done
+[?25h  Created wheel for tessreduce: filename=tessreduce-0.2.0-py3-none-any.whl size=100367 sha256=63642cd6f82d9fa7874096ce03235e4c77ed8590a708163a522f02bfccaeb951
+  Stored in directory: /private/var/folders/p4/pmr2qg1s1m7gtlp4x6d4q5kh0002g_/T/pip-ephem-wheel-cache-3zdri62r/wheels/5c/3f/ef/a1d871a6c0c96c6552d3ac3bdbd1e4f1ba2db0f2a183a5334d
+Successfully built tessreduce
+Installing collected packages: tessreduce
+  Attempting uninstall: tessreduce
+    Found existing installation: tessreduce 0.2.0
+    Uninstalling tessreduce-0.2.0:
+      Successfully uninstalled tessreduce-0.2.0
+Successfully installed tessreduce-0.2.0
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hpip install .[?1l>[?2004l
+]2;pip install .]1;pipProcessing /Users/rridden/Documents/work/code/tess/tessreduce
+Requirement already satisfied: lightkurve in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.11.2)
+Requirement already satisfied: numpy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.19.1)
+Requirement already satisfied: photutils in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.7.2)
+Requirement already satisfied: pandas in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.1.1)
+Requirement already satisfied: scipy!=1.4.0,!=1.4.1,>=0.19.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.5.2)
+Requirement already satisfied: astropy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (4.0.1.post1)
+Requirement already satisfied: joblib in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.16.0)
+Requirement already satisfied: multiprocess in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.70.10)
+Requirement already satisfied: astroquery>=0.3.9 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.4.1)
+Requirement already satisfied: bs4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.0.1)
+Requirement already satisfied: requests in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (2.24.0)
+Requirement already satisfied: patsy>=0.5.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.5.1)
+Requirement already satisfied: matplotlib>=1.5.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.2.2)
+Requirement already satisfied: oktopus in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.1.2)
+Requirement already satisfied: fbpca>=1.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (1.0)
+Requirement already satisfied: uncertainties in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.1.4)
+Requirement already satisfied: tqdm>=4.25.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (4.49.0)
+Requirement already satisfied: python-dateutil>=2.7.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2.8.1)
+Requirement already satisfied: pytz>=2017.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2020.1)
+Requirement already satisfied: dill>=0.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from multiprocess->tessreduce==0.2.0) (0.3.2)
+Requirement already satisfied: keyring>=4.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (21.4.0)
+Requirement already satisfied: beautifulsoup4>=4.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (4.9.1)
+Requirement already satisfied: html5lib>=0.999 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.1)
+Requirement already satisfied: six in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.15.0)
+Requirement already satisfied: idna<3,>=2.5 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2.10)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (1.25.10)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2020.6.20)
+Requirement already satisfied: chardet<4,>=3.0.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (3.0.4)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (1.2.0)
+Requirement already satisfied: cycler>=0.10 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (0.10.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (2.4.7)
+Requirement already satisfied: autograd in /Users/rridden/miniconda3/lib/python3.8/site-packages (from oktopus->lightkurve->tessreduce==0.2.0) (1.3)
+Requirement already satisfied: future in /Users/rridden/miniconda3/lib/python3.8/site-packages (from uncertainties->lightkurve->tessreduce==0.2.0) (0.18.2)
+Requirement already satisfied: soupsieve>1.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from beautifulsoup4>=4.3.2->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (2.0.1)
+Requirement already satisfied: webencodings in /Users/rridden/miniconda3/lib/python3.8/site-packages (from html5lib>=0.999->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (0.5.1)
+Building wheels for collected packages: tessreduce
+  Building wheel for tessreduce (setup.py) ... [?25l- done
+[?25h  Created wheel for tessreduce: filename=tessreduce-0.2.0-py3-none-any.whl size=100368 sha256=19bc323c73308045c729eaf10b51e8518327e27202f411cc3f9e51316c81ec21
+  Stored in directory: /private/var/folders/p4/pmr2qg1s1m7gtlp4x6d4q5kh0002g_/T/pip-ephem-wheel-cache-fne435nw/wheels/5c/3f/ef/a1d871a6c0c96c6552d3ac3bdbd1e4f1ba2db0f2a183a5334d
+Successfully built tessreduce
+Installing collected packages: tessreduce
+  Attempting uninstall: tessreduce
+    Found existing installation: tessreduce 0.2.0
+    Uninstalling tessreduce-0.2.0:
+      Successfully uninstalled tessreduce-0.2.0
+Successfully installed tessreduce-0.2.0
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hpip install .[?1l>[?2004l
+]2;pip install .]1;pipProcessing /Users/rridden/Documents/work/code/tess/tessreduce
+Requirement already satisfied: lightkurve in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.11.2)
+Requirement already satisfied: numpy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.19.1)
+Requirement already satisfied: photutils in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.7.2)
+Requirement already satisfied: pandas in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.1.1)
+Requirement already satisfied: scipy!=1.4.0,!=1.4.1,>=0.19.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.5.2)
+Requirement already satisfied: astropy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (4.0.1.post1)
+Requirement already satisfied: joblib in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.16.0)
+Requirement already satisfied: multiprocess in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.70.10)
+Requirement already satisfied: requests in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (2.24.0)
+Requirement already satisfied: patsy>=0.5.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.5.1)
+Requirement already satisfied: bs4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.0.1)
+Requirement already satisfied: fbpca>=1.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (1.0)
+Requirement already satisfied: matplotlib>=1.5.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.2.2)
+Requirement already satisfied: astroquery>=0.3.9 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.4.1)
+Requirement already satisfied: uncertainties in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.1.4)
+Requirement already satisfied: tqdm>=4.25.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (4.49.0)
+Requirement already satisfied: oktopus in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.1.2)
+Requirement already satisfied: python-dateutil>=2.7.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2.8.1)
+Requirement already satisfied: pytz>=2017.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2020.1)
+Requirement already satisfied: dill>=0.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from multiprocess->tessreduce==0.2.0) (0.3.2)
+Requirement already satisfied: chardet<4,>=3.0.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (3.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2020.6.20)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (1.25.10)
+Requirement already satisfied: idna<3,>=2.5 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2.10)
+Requirement already satisfied: six in /Users/rridden/miniconda3/lib/python3.8/site-packages (from patsy>=0.5.1->lightkurve->tessreduce==0.2.0) (1.15.0)
+Requirement already satisfied: beautifulsoup4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from bs4->lightkurve->tessreduce==0.2.0) (4.9.1)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (1.2.0)
+Requirement already satisfied: cycler>=0.10 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (0.10.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (2.4.7)
+Requirement already satisfied: keyring>=4.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (21.4.0)
+Requirement already satisfied: html5lib>=0.999 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.1)
+Requirement already satisfied: future in /Users/rridden/miniconda3/lib/python3.8/site-packages (from uncertainties->lightkurve->tessreduce==0.2.0) (0.18.2)
+Requirement already satisfied: autograd in /Users/rridden/miniconda3/lib/python3.8/site-packages (from oktopus->lightkurve->tessreduce==0.2.0) (1.3)
+Requirement already satisfied: soupsieve>1.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from beautifulsoup4->bs4->lightkurve->tessreduce==0.2.0) (2.0.1)
+Requirement already satisfied: webencodings in /Users/rridden/miniconda3/lib/python3.8/site-packages (from html5lib>=0.999->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (0.5.1)
+Building wheels for collected packages: tessreduce
+  Building wheel for tessreduce (setup.py) ... [?25l- done
+[?25h  Created wheel for tessreduce: filename=tessreduce-0.2.0-py3-none-any.whl size=100399 sha256=e019cea167c9921539e9e5fff5413ceb7e204c142040ebab1999feaf098d65e1
+  Stored in directory: /private/var/folders/p4/pmr2qg1s1m7gtlp4x6d4q5kh0002g_/T/pip-ephem-wheel-cache-1c5vnlxk/wheels/5c/3f/ef/a1d871a6c0c96c6552d3ac3bdbd1e4f1ba2db0f2a183a5334d
+Successfully built tessreduce
+Installing collected packages: tessreduce
+  Attempting uninstall: tessreduce
+    Found existing installation: tessreduce 0.2.0
+    Uninstalling tessreduce-0.2.0:
+      Successfully uninstalled tessreduce-0.2.0
+Successfully installed tessreduce-0.2.0
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hpip install .[?1l>[?2004l
+]2;pip install .]1;pipProcessing /Users/rridden/Documents/work/code/tess/tessreduce
+Requirement already satisfied: lightkurve in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.11.2)
+Requirement already satisfied: numpy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.19.1)
+Requirement already satisfied: photutils in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.7.2)
+Requirement already satisfied: pandas in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.1.1)
+Requirement already satisfied: scipy!=1.4.0,!=1.4.1,>=0.19.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.5.2)
+Requirement already satisfied: astropy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (4.0.1.post1)
+Requirement already satisfied: joblib in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.16.0)
+Requirement already satisfied: multiprocess in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.70.10)
+Requirement already satisfied: tqdm>=4.25.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (4.49.0)
+Requirement already satisfied: oktopus in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.1.2)
+Requirement already satisfied: requests in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (2.24.0)
+Requirement already satisfied: bs4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.0.1)
+Requirement already satisfied: fbpca>=1.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (1.0)
+Requirement already satisfied: uncertainties in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.1.4)
+Requirement already satisfied: patsy>=0.5.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.5.1)
+Requirement already satisfied: astroquery>=0.3.9 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.4.1)
+Requirement already satisfied: matplotlib>=1.5.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.2.2)
+Requirement already satisfied: pytz>=2017.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2020.1)
+Requirement already satisfied: python-dateutil>=2.7.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2.8.1)
+Requirement already satisfied: dill>=0.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from multiprocess->tessreduce==0.2.0) (0.3.2)
+Requirement already satisfied: autograd in /Users/rridden/miniconda3/lib/python3.8/site-packages (from oktopus->lightkurve->tessreduce==0.2.0) (1.3)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (1.25.10)
+Requirement already satisfied: idna<3,>=2.5 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2.10)
+Requirement already satisfied: chardet<4,>=3.0.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (3.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2020.6.20)
+Requirement already satisfied: beautifulsoup4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from bs4->lightkurve->tessreduce==0.2.0) (4.9.1)
+Requirement already satisfied: future in /Users/rridden/miniconda3/lib/python3.8/site-packages (from uncertainties->lightkurve->tessreduce==0.2.0) (0.18.2)
+Requirement already satisfied: six in /Users/rridden/miniconda3/lib/python3.8/site-packages (from patsy>=0.5.1->lightkurve->tessreduce==0.2.0) (1.15.0)
+Requirement already satisfied: keyring>=4.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (21.4.0)
+Requirement already satisfied: html5lib>=0.999 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.1)
+Requirement already satisfied: cycler>=0.10 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (0.10.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (2.4.7)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (1.2.0)
+Requirement already satisfied: soupsieve>1.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from beautifulsoup4->bs4->lightkurve->tessreduce==0.2.0) (2.0.1)
+Requirement already satisfied: webencodings in /Users/rridden/miniconda3/lib/python3.8/site-packages (from html5lib>=0.999->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (0.5.1)
+Building wheels for collected packages: tessreduce
+  Building wheel for tessreduce (setup.py) ... [?25l- done
+[?25h  Created wheel for tessreduce: filename=tessreduce-0.2.0-py3-none-any.whl size=100368 sha256=12af9e7910205b4e00dd56dda1b764dd088ca6eddb8674fafca8c7b3c0cfe8a9
+  Stored in directory: /private/var/folders/p4/pmr2qg1s1m7gtlp4x6d4q5kh0002g_/T/pip-ephem-wheel-cache-9gn4rayx/wheels/5c/3f/ef/a1d871a6c0c96c6552d3ac3bdbd1e4f1ba2db0f2a183a5334d
+Successfully built tessreduce
+Installing collected packages: tessreduce
+  Attempting uninstall: tessreduce
+    Found existing installation: tessreduce 0.2.0
+    Uninstalling tessreduce-0.2.0:
+      Successfully uninstalled tessreduce-0.2.0
+Successfully installed tessreduce-0.2.0
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hpip install .[?1l>[?2004l
+]2;pip install .]1;pipProcessing /Users/rridden/Documents/work/code/tess/tessreduce
+Requirement already satisfied: lightkurve in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.11.2)
+Requirement already satisfied: numpy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.19.1)
+Requirement already satisfied: photutils in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.7.2)
+Requirement already satisfied: pandas in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.1.1)
+Requirement already satisfied: scipy!=1.4.0,!=1.4.1,>=0.19.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.5.2)
+Requirement already satisfied: astropy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (4.0.1.post1)
+Requirement already satisfied: joblib in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.16.0)
+Requirement already satisfied: multiprocess in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.70.10)
+Requirement already satisfied: oktopus in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.1.2)
+Requirement already satisfied: bs4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.0.1)
+Requirement already satisfied: matplotlib>=1.5.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.2.2)
+Requirement already satisfied: uncertainties in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.1.4)
+Requirement already satisfied: fbpca>=1.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (1.0)
+Requirement already satisfied: astroquery>=0.3.9 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.4.1)
+Requirement already satisfied: requests in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (2.24.0)
+Requirement already satisfied: tqdm>=4.25.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (4.49.0)
+Requirement already satisfied: patsy>=0.5.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.5.1)
+Requirement already satisfied: pytz>=2017.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2020.1)
+Requirement already satisfied: python-dateutil>=2.7.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2.8.1)
+Requirement already satisfied: dill>=0.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from multiprocess->tessreduce==0.2.0) (0.3.2)
+Requirement already satisfied: autograd in /Users/rridden/miniconda3/lib/python3.8/site-packages (from oktopus->lightkurve->tessreduce==0.2.0) (1.3)
+Requirement already satisfied: beautifulsoup4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from bs4->lightkurve->tessreduce==0.2.0) (4.9.1)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (2.4.7)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (1.2.0)
+Requirement already satisfied: cycler>=0.10 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (0.10.0)
+Requirement already satisfied: future in /Users/rridden/miniconda3/lib/python3.8/site-packages (from uncertainties->lightkurve->tessreduce==0.2.0) (0.18.2)
+Requirement already satisfied: keyring>=4.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (21.4.0)
+Requirement already satisfied: html5lib>=0.999 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.1)
+Requirement already satisfied: six in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.15.0)
+Requirement already satisfied: chardet<4,>=3.0.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (3.0.4)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (1.25.10)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2020.6.20)
+Requirement already satisfied: idna<3,>=2.5 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2.10)
+Requirement already satisfied: soupsieve>1.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from beautifulsoup4->bs4->lightkurve->tessreduce==0.2.0) (2.0.1)
+Requirement already satisfied: webencodings in /Users/rridden/miniconda3/lib/python3.8/site-packages (from html5lib>=0.999->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (0.5.1)
+Building wheels for collected packages: tessreduce
+  Building wheel for tessreduce (setup.py) ... [?25l- done
+[?25h  Created wheel for tessreduce: filename=tessreduce-0.2.0-py3-none-any.whl size=100386 sha256=92e1a4bf032b0a4ec700ca4f2e5f799794a18d4bdf3f55035ec0f8b9543315c6
+  Stored in directory: /private/var/folders/p4/pmr2qg1s1m7gtlp4x6d4q5kh0002g_/T/pip-ephem-wheel-cache-7u9phj54/wheels/5c/3f/ef/a1d871a6c0c96c6552d3ac3bdbd1e4f1ba2db0f2a183a5334d
+Successfully built tessreduce
+Installing collected packages: tessreduce
+  Attempting uninstall: tessreduce
+    Found existing installation: tessreduce 0.2.0
+    Uninstalling tessreduce-0.2.0:
+      Successfully uninstalled tessreduce-0.2.0
+Successfully installed tessreduce-0.2.0
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hpip install .[?1l>[?2004l
+]2;pip install .]1;pipProcessing /Users/rridden/Documents/work/code/tess/tessreduce
+Requirement already satisfied: lightkurve in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.11.2)
+Requirement already satisfied: numpy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.19.1)
+Requirement already satisfied: photutils in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.7.2)
+Requirement already satisfied: pandas in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.1.1)
+Requirement already satisfied: scipy!=1.4.0,!=1.4.1,>=0.19.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.5.2)
+Requirement already satisfied: astropy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (4.0.1.post1)
+Requirement already satisfied: joblib in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.16.0)
+Requirement already satisfied: multiprocess in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.70.10)
+Requirement already satisfied: patsy>=0.5.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.5.1)
+Requirement already satisfied: fbpca>=1.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (1.0)
+Requirement already satisfied: oktopus in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.1.2)
+Requirement already satisfied: bs4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.0.1)
+Requirement already satisfied: matplotlib>=1.5.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.2.2)
+Requirement already satisfied: requests in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (2.24.0)
+Requirement already satisfied: astroquery>=0.3.9 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.4.1)
+Requirement already satisfied: uncertainties in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.1.4)
+Requirement already satisfied: tqdm>=4.25.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (4.49.0)
+Requirement already satisfied: python-dateutil>=2.7.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2.8.1)
+Requirement already satisfied: pytz>=2017.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2020.1)
+Requirement already satisfied: dill>=0.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from multiprocess->tessreduce==0.2.0) (0.3.2)
+Requirement already satisfied: six in /Users/rridden/miniconda3/lib/python3.8/site-packages (from patsy>=0.5.1->lightkurve->tessreduce==0.2.0) (1.15.0)
+Requirement already satisfied: autograd in /Users/rridden/miniconda3/lib/python3.8/site-packages (from oktopus->lightkurve->tessreduce==0.2.0) (1.3)
+Requirement already satisfied: beautifulsoup4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from bs4->lightkurve->tessreduce==0.2.0) (4.9.1)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (2.4.7)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (1.2.0)
+Requirement already satisfied: cycler>=0.10 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (0.10.0)
+Requirement already satisfied: chardet<4,>=3.0.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (3.0.4)
+Requirement already satisfied: idna<3,>=2.5 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2.10)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2020.6.20)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (1.25.10)
+Requirement already satisfied: keyring>=4.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (21.4.0)
+Requirement already satisfied: html5lib>=0.999 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.1)
+Requirement already satisfied: future in /Users/rridden/miniconda3/lib/python3.8/site-packages (from uncertainties->lightkurve->tessreduce==0.2.0) (0.18.2)
+Requirement already satisfied: soupsieve>1.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from beautifulsoup4->bs4->lightkurve->tessreduce==0.2.0) (2.0.1)
+Requirement already satisfied: webencodings in /Users/rridden/miniconda3/lib/python3.8/site-packages (from html5lib>=0.999->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (0.5.1)
+Building wheels for collected packages: tessreduce
+  Building wheel for tessreduce (setup.py) ... [?25l- done
+[?25h  Created wheel for tessreduce: filename=tessreduce-0.2.0-py3-none-any.whl size=100384 sha256=bdf857fec29a5055175aeb4a56e71e66bd3208d09e7db7f50f5f27f064b0f86e
+  Stored in directory: /private/var/folders/p4/pmr2qg1s1m7gtlp4x6d4q5kh0002g_/T/pip-ephem-wheel-cache-q9n7au52/wheels/5c/3f/ef/a1d871a6c0c96c6552d3ac3bdbd1e4f1ba2db0f2a183a5334d
+Successfully built tessreduce
+Installing collected packages: tessreduce
+  Attempting uninstall: tessreduce
+    Found existing installation: tessreduce 0.2.0
+    Uninstalling tessreduce-0.2.0:
+      Successfully uninstalled tessreduce-0.2.0
+Successfully installed tessreduce-0.2.0
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hpip install .[?1l>[?2004l
+]2;pip install .]1;pipProcessing /Users/rridden/Documents/work/code/tess/tessreduce
+Requirement already satisfied: lightkurve in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.11.2)
+Requirement already satisfied: numpy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.19.1)
+Requirement already satisfied: photutils in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.7.2)
+Requirement already satisfied: pandas in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.1.1)
+Requirement already satisfied: scipy!=1.4.0,!=1.4.1,>=0.19.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (1.5.2)
+Requirement already satisfied: astropy in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (4.0.1.post1)
+Requirement already satisfied: joblib in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.16.0)
+Requirement already satisfied: multiprocess in /Users/rridden/miniconda3/lib/python3.8/site-packages (from tessreduce==0.2.0) (0.70.10)
+Requirement already satisfied: uncertainties in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.1.4)
+Requirement already satisfied: oktopus in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.1.2)
+Requirement already satisfied: matplotlib>=1.5.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (3.2.2)
+Requirement already satisfied: astroquery>=0.3.9 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.4.1)
+Requirement already satisfied: requests in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (2.24.0)
+Requirement already satisfied: patsy>=0.5.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.5.1)
+Requirement already satisfied: fbpca>=1.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (1.0)
+Requirement already satisfied: tqdm>=4.25.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (4.49.0)
+Requirement already satisfied: bs4 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from lightkurve->tessreduce==0.2.0) (0.0.1)
+Requirement already satisfied: pytz>=2017.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2020.1)
+Requirement already satisfied: python-dateutil>=2.7.3 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from pandas->tessreduce==0.2.0) (2.8.1)
+Requirement already satisfied: dill>=0.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from multiprocess->tessreduce==0.2.0) (0.3.2)
+Requirement already satisfied: future in /Users/rridden/miniconda3/lib/python3.8/site-packages (from uncertainties->lightkurve->tessreduce==0.2.0) (0.18.2)
+Requirement already satisfied: autograd in /Users/rridden/miniconda3/lib/python3.8/site-packages (from oktopus->lightkurve->tessreduce==0.2.0) (1.3)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (2.4.7)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (1.2.0)
+Requirement already satisfied: cycler>=0.10 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from matplotlib>=1.5.3->lightkurve->tessreduce==0.2.0) (0.10.0)
+Requirement already satisfied: keyring>=4.0 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (21.4.0)
+Requirement already satisfied: beautifulsoup4>=4.3.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (4.9.1)
+Requirement already satisfied: html5lib>=0.999 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.1)
+Requirement already satisfied: six in /Users/rridden/miniconda3/lib/python3.8/site-packages (from astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (1.15.0)
+Requirement already satisfied: idna<3,>=2.5 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2.10)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (1.25.10)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (2020.6.20)
+Requirement already satisfied: chardet<4,>=3.0.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from requests->lightkurve->tessreduce==0.2.0) (3.0.4)
+Requirement already satisfied: soupsieve>1.2 in /Users/rridden/miniconda3/lib/python3.8/site-packages (from beautifulsoup4>=4.3.2->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (2.0.1)
+Requirement already satisfied: webencodings in /Users/rridden/miniconda3/lib/python3.8/site-packages (from html5lib>=0.999->astroquery>=0.3.9->lightkurve->tessreduce==0.2.0) (0.5.1)
+Building wheels for collected packages: tessreduce
+  Building wheel for tessreduce (setup.py) ... [?25l- done
+[?25h  Created wheel for tessreduce: filename=tessreduce-0.2.0-py3-none-any.whl size=100377 sha256=886b1f41efc1f02dccdb84c94bc5d443738c93303fed83814e1d9449e7ab5dc3
+  Stored in directory: /private/var/folders/p4/pmr2qg1s1m7gtlp4x6d4q5kh0002g_/T/pip-ephem-wheel-cache-usgikhdp/wheels/5c/3f/ef/a1d871a6c0c96c6552d3ac3bdbd1e4f1ba2db0f2a183a5334d
+Successfully built tessreduce
+Installing collected packages: tessreduce
+  Attempting uninstall: tessreduce
+    Found existing installation: tessreduce 0.2.0
+    Uninstalling tessreduce-0.2.0:
+      Successfully uninstalled tessreduce-0.2.0
+Successfully installed tessreduce-0.2.0
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hgga *[?1l>[?2004l
+]2;git add *]1;gaThe following paths are ignored by one of your .gitignore files:
+__pycache__
+Use -f if you really want to add them.
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [43m[34m [30m master ✚ ? [49m[33m[39m [K[?1h=[?2004hggc -m ''n'w' '' ' o'w' 'o'n'l'y' 's' [K[A[89Co'u'ur'c'e's' 'w'i't'h' 'c'o'u'n't's' '>' '1'0'0' 'a'r'e' 'i'n'c'l'u'd'e'd' '' [?1l>[?2004l
+]2;git commit -v -m 'now only sources with counts > 100 are included']1;gc[master a34bcbf] now only sources with counts > 100 are included
+ Committer: Ryan Ridden-Harper <rridden@ryanr.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [42m[34m [30m master ? ↑1 [49m[32m[39m [K[?1h=[?2004hggp[?1l>[?2004l
+]2;git push]1;gpEnumerating objects: 9, done.
+Counting objects:  11% (1/9)Counting objects:  22% (2/9)Counting objects:  33% (3/9)Counting objects:  44% (4/9)Counting objects:  55% (5/9)Counting objects:  66% (6/9)Counting objects:  77% (7/9)Counting objects:  88% (8/9)Counting objects: 100% (9/9)Counting objects: 100% (9/9), done.
+Delta compression using up to 16 threads
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 514 bytes | 514.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To https://github.com/CheerfulUser/TESSreduce.git
+   dfd7e9e..a34bcbf  master -> master
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hlls -a[?1l>[?2004l
+]2;ls -G -a]1;ls[1m[36m.[39;49m[0m                  .gitignore         MANIFEST.in        setup.py
+[1m[36m..[39;49m[0m                 [1m[36m.ipynb_checkpoints[39;49m[0m README.md          [1m[36mtessreduce[39;49m[0m
+.DS_Store          Example.ipynb      [1m[36m__pycache__[39;49m[0m
+[1m[36m.git[39;49m[0m               LICENSE            [1m[36mdevelopment[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004hoopen .gitir gnore[1m [0m[0m [?1l>[?2004l
+]2;open .gitignore]1;open[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/tess/tessreduce]1;..ss/tessreduce[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/tess/tessreduce [42m[34m [30m master ? [49m[32m[39m [K[?1h=[?2004h.../../[?1l>[?2004l
+]2;../../]1;../../[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code]1;..nts/work/code[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code [49m[34m[39m [K[27C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1655 [39m[37m[39m[47m[30m 15:49:16[K[00m[39m[49m[48D[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[30m[43mPS1Calibration[39;49m[0m [1m[36matlas[39;49m[0m          [1m[36mkepler[39;49m[0m         [30m[43mps1cal[39;49m[0m         [1m[36mtess[39;49m[0m
+[30m[43mSigma_clip[39;49m[0m     [30m[43mcalibration[39;49m[0m    [1m[36mmessing_around[39;49m[0m [30m[43msource_synphot[39;49m[0m
+[30m[43mSynDiff[39;49m[0m        [1m[36mjwst[39;49m[0m           [1m[36mpandeia[39;49m[0m        [1m[36mterminal[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code]1;..nts/work/code[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code [49m[34m[39m [K[27C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1656 [39m[37m[39m[47m[30m 15:49:17[K[00m[39m[49m[48D[?1h=[?2004hccd cal   syn   source_synphot[1m/[0m[0m [?1l>[?2004l
+]2;cd source_synphot]1;cd[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/source_synphot]1;..ource_synphot[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/source_synphot [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[31mArmin_sigma_clip.ipynb[39;49m[0m      [31mWD_synthmag.pdf[39;49m[0m             [31mg-i_residuals.png[39;49m[0m
+[31mBayestar_coeffs.ipynb[39;49m[0m       [31mWD_synthmag.png[39;49m[0m             [31mg-r_residuals.png[39;49m[0m
+[31mC16_zeropoints.png[39;49m[0m          [31mWD_synthmag_ap.png[39;49m[0m          [31morganise_source_table.ipynb[39;49m[0m
+C2_extinction.pdf           WD_synthmag_psf.pdf         [1m[36moutput[39;49m[0m
+C2_extinction_fp.pdf        [31mWD_synthmag_psf.png[39;49m[0m         [31mpredict_i.ipynb[39;49m[0m
+[31mCK_vs_Tonry.pdf[39;49m[0m             [30m[43m__pycache__[39;49m[0m                 [31mpredict_z.ipynb[39;49m[0m
+[31mCalspec.ipynb[39;49m[0m               all_dust_fig.ipynb          [31mps1_r-i_g-r.csv[39;49m[0m
+[31mFit_only_zp_Ak.ipynb[39;49m[0m        all_dust_hist.pdf           [31mps1_r-i_i-z.csv[39;49m[0m
+[31mK2_k-i.png[39;49m[0m                  av_fit_example.pdf          [31mr-i_residuals.png[39;49m[0m
+[31mK2_k-i_c40.png[39;49m[0m              [30m[43mbin[39;49m[0m                         [31msetup.py[39;49m[0m
+[31mK2_r-i.png[39;49m[0m                  c16_focal_plane_zp.pdf      [31msn2000fa-20001215.flm[39;49m[0m
+[31mK2_r-i_c40.png[39;49m[0m              c16_sdss_everest_error.pdf  [30m[43msource_synphot[39;49m[0m
+[31mKzp_individual_colours.pdf[39;49m[0m  c16_sdss_everest_error2.pdf [31msource_synphot.ipynb[39;49m[0m
+[31mLICENSE[39;49m[0m                     c16_sdss_everest_kzp.pdf    [31mtess.ipynb[39;49m[0m
+[31mMC_PS1_kep.ipynb[39;49m[0m            c16_sdss_everest_zp.pdf     [31mtest.dat[39;49m[0m
+Match_2_spec.ipynb          [31mc16_zp.png[39;49m[0m                  [31mtest.txt[39;49m[0m
+[31mPS1_dust.ipynb[39;49m[0m              [31mc1zp-c16zp.png[39;49m[0m              [31mtonry_funcs.py[39;49m[0m
+[31mPS1_kep.ipynb[39;49m[0m               [31mc1zp_c16zp.png[39;49m[0m              [31mtools.py[39;49m[0m
+[31mPS1_r-i_c40.png[39;49m[0m             [31mcaspec_MS_mags.npy[39;49m[0m          [31mtriangle.png[39;49m[0m
+[31mPlot_zp_detector.ipynb[39;49m[0m      [31mcaspec_mags.npy[39;49m[0m             [31mwd_spec.ipynb[39;49m[0m
+[31mREADME.md[39;49m[0m                   caspec_mags2.npy            zeropoint_kep.npy
+[31mSN2018agk.ipynb[39;49m[0m             [31mckmodels.txt[39;49m[0m                zeropoint_z.npy
+[31mSVO_interaction.ipynb[39;49m[0m       [30m[43mdocs[39;49m[0m                        [30m[43mzeropoints[39;49m[0m
+[31mStellar_locus_regression.py[39;49m[0m extinction_figure.ipynb     [31mzp_fit.py[39;49m[0m
+[31mTonry_splines.txt[39;49m[0m           [30m[43mfigs[39;49m[0m
+[31mUntitled.ipynb[39;49m[0m              [31mfit_kep.ipynb[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/source_synphot]1;..ource_synphot[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/source_synphot [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hoopen tools.py[1m [0m[0m [?1l>[?2004l
+]2;open tools.py]1;open[1m[7m%[27m[1m[0m                                                                                          ]2;rridden@ryanr: ~/Documents/work/code/source_synphot]1;..ource_synphot[0m[27m[24m[J[39m[0m[49m[40m [33mrridden@ryanr [44m[30m [30m~/Documents/work/code/source_synphot [43m[34m [30m master ● ? [49m[33m[39m [K[?1h=[?2004hsshst[?1l>[?2004l
+]2;ssh hst]1;shstDuo two-factor login for rridden
+
+Enter a passcode or select one of the following options:
+
+ 1. Duo Push to +XX XXX XXX 856
+
+Passcode or option (1-1): 1
+Success. Logging you in...
+Password: 
+Last login: Fri Nov  6 15:28:22 2020 from 172.17.13.180
+   ****************************************************************************
+   *                                 WARNING!                                 *
+   * By accessing and using this information system, you acknowledge and      *
+   * consent to the following:                                                * 
+   * You are accessing a U.S. Government information system, which includes:  *
+   * (1) this computer; (2) this computer network; (3) all computers          *
+   * connected to this network including end user systems; (4) all devices    *
+   * and storage media attached to this network or to any computer on this    *
+   * network; and (5) cloud and remote information services. This information *
+   * system is provided for U.S. Government-authorized use only. You have no  *
+   * reasonable expectation of privacy regarding any communication            *
+   * transmitted or data stored on this information system. At any time, and  *
+   * for any lawful purpose, the U.S. Government may monitor, intercept,      *
+   * search and seize any communication or data transiting, stored on, or     *
+   * traveling to or from this information system. You are NOT authorized to  *
+   * process classified information on this information system. Unauthorized  *
+   * or improper use of this system may result in suspension or loss of       *
+   * access privileges, disciplinary action, and civil and/or criminal        *
+   * penalties.                                                               *
+   ****************************************************************************
+]0;rridden@plhstproc1:~[?1034h[rridden@plhstproc1 ~]$ cd code/te[K[K
+]0;rridden@plhstproc1:~/code[rridden@plhstproc1 code]$ ls
+[0m[38;5;27mcalibration[0m     [38;5;27mDIA[0m        [38;5;27mk2mosaic[0m    [38;5;27msource_synphot[0m  [38;5;27mtesscvs[0m  [38;5;27mtest[0m   [38;5;27mtexas_old[0m
+[38;5;27mcdips-pipeline[0m  [38;5;34mfiles.txt[0m  [38;5;27mmoon_scope[0m  [38;5;27mtess[0m            [38;5;27mtess_sn[0m  [38;5;27mtexas[0m  [48;5;10;38;5;21mtexas_q[0m
+[m]0;rridden@plhstproc1:~/code[rridden@plhstproc1 code]$ cd tessc[Kcs[Kvs/
+]0;rridden@plhstproc1:~/code/tesscvs[rridden@plhstproc1 tesscvs]$ ls
+bulk_cvs.py  [0m[38;5;27mdata[0m  [38;5;27mfigs[0m  [38;5;27mlcs[0m  LICENSE  README.md
+[m]0;rridden@plhstproc1:~/code/tesscvs[rridden@plhstproc1 tesscvs]$ cd figs/
+]0;rridden@plhstproc1:~/code/tesscvs/figs[rridden@plhstproc1 figs]$ ;s
+-bash: syntax error near unexpected token `;'
+]0;rridden@plhstproc1:~/code/tesscvs/figs[rridden@plhstproc1 figs]$ ls
+1RXS_J0001-6707.pdf
+]0;rridden@plhstproc1:~/code/tesscvs/figs[rridden@plhstproc1 figs]$ s[K
